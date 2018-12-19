@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/row_layout_stock_change"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:duplicateParentState="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:textColor="@android:color/black"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="SBUX with positive start, equity benchmarks sensex and nifty extended their record setting spree for 3rd session on buying by domestic inventories.">
+
+        <!--<requestFocus-->
+            <!--android:duplicateParentState="true"-->
+            <!--android:focusable="true"-->
+            <!--android:focusableInTouchMode="true" />-->
+    </TextView>
+
+
+</LinearLayout>
